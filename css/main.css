@@ -1,0 +1,87 @@
+
+body {  font-family: "Open Sans", sans-serif;}
+
+/* main wrapper */
+.main-wrapper {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding-left:25px;
+  padding-right: 25px; 
+}
+
+/* page header */
+.page-header {
+  position: absolute;
+  width: 75%;
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #e8e8e8;
+}
+
+/* section hero */
+.hero-section {
+  height: 100vh;
+  padding-bottom: 150px;
+  background-image: url("../img/bg-header.jpg");
+  background-size: cover;
+  color: #e8e8e8;
+  text-align: center;
+}
+
+.hero-section__title {
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.hero-section__text {
+  max-width: 670px; 
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;  
+  font-weight: 400;  
+}
+
+.hero-section__btn2 {
+ position: absolute; 
+ bottom: 10%; 
+}
+
+/* section services */
+/* section works */
+.section-works .section {padding-bottom: 0;}
+
+/* section reviews */
+/* section team */
+.section-team__card-container {margin-bottom: 100px;}
+
+/* section brands */
+.section-brands {
+  padding: 40px 40px; 
+  background-color: #f5f5f5; 
+}
+
+/* section pricing */
+
+.section-pricing .btn {
+  background-color: #485563;
+  width: 125px;
+  align-self: center;
+}
+
+/* section contact-us */
+.section-contact-us__map,
+.section-contact-us__form-container {width: 50%;}
+
+.section-contact-us__form-container{background-image: url(../img/bg-form.jpg);}
+
+/* page footer */
+.page-footer {
+  padding-top: 50px; 
+  padding-bottom: 50px; 
+}
+
+.page-footer .copyright {padding-left: 20px;}
+
